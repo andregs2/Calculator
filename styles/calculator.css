@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(153, 219, 197);
+    background-color: #8B9197;
     margin: 0;
     padding: 0;
     display: flex;
@@ -16,11 +16,12 @@ body {
 .calculator-body {
     display: block;
     margin: 10%;
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: #1d3a5b;
     backdrop-filter: blur(2.5px);
     border-radius: 10px;
     width: 300px;
     height: 425px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.726);
 }
 
 .calculator-display {
@@ -43,19 +44,20 @@ body {
 }
 
 .buttons{
+
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
     justify-content: space-between;
     padding: 10px;
     margin-top: 25px;
-    align-items: center;
 }
 
 .button{
     text-align: center;
-    background-color: rgb(164, 207, 205);
+    background-color: #3E536C;
     border-radius: 5px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.726);
     width: 65px;
     height: 65px;
 }
